@@ -126,17 +126,77 @@ span{
 .achievements{
     background: var(--primaryColor);
 }
+.achievements_txt h2,.left{
+    text-align: left;
+}
+.achievements_txt h2{
+    width: 70%;
+}
+.achievements_txt span{
+    color: rgba(76, 175, 79, 1);
+}
+.b_txt h3,.b_P{
+    text-align: left;
+}
+.b_txt h3{
+    font-size: 22px;
+}
+.box_1 img {
+	width: 33px;
+	height: 33px;
+}
+.b_margin{
+    margin-left: 20px;
+}
+.a_top{
+    margin-right: 30px;
+}
+
 
 /* calender_area start here  */
-
-
+.unlock{
+    padding: 30px 0;
+}
+#h2_w{
+    width: 84%;
+}
+.p_W{
+    width: 94%;
+}
 /* customer_area start here  */
 .customer{
     background: var(--primaryColor);
+    padding: 20px 0;
+}
+.a_bg{
+    border: none;
+    color: rgba(76, 175, 79, 1);
+}
+.a_bg:hover{
+    background: rgba(76, 175, 79, 1);
+    color: rgba(245, 247, 250, 1);
+}
+.client_img img{
+    width: 40px;
+    height: 40px;
 }
 
 /* marketing_area start here  */
-
+/* .body_1 img{
+    z-index: 1;
+    position: relative;
+} */
+.card_txt{
+    background: rgb(255, 255, 255);
+    box-shadow: 3px 9px 12px 1px #ABBED166;
+    margin-top: -86px;
+    margin-left: 25px;
+    border-radius: 10px;
+    width: 85%;
+    z-index: 2;
+    position: relative;
+    padding: 10px 0
+}
 
 /* footer_area start here  */
 .f_head{
