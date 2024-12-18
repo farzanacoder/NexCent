@@ -48,7 +48,9 @@ p{
 nav{
     background: var(--primaryColor);
 }
-
+.nav-item .nav-link:hover{
+    color: rgba(76, 175, 79, 1);
+}
 
 .btn a{
     color: var(--secondaryColor);
@@ -89,7 +91,10 @@ span{
     background: transparent;
 }
 /* client_area start here */
-
+#Logo{
+    width: 60px;
+    height: 60px;
+}
 
 /* community_area start here */
 .head_txt h3 {
@@ -100,7 +105,11 @@ span{
     width: 47%;
     margin: 0 auto;
 }
-.body_1 {
+.card_txt {
+	box-shadow: 0px 3px 1px 1px #ABBED166;
+	border-radius: 10px;
+}
+.card1 {
 	box-shadow: 0px 3px 1px 1px #ABBED166;
 	border-radius: 10px;
 }
@@ -180,6 +189,9 @@ span{
     border: none;
     color: rgba(76, 175, 79, 1);
 }
+span{
+    cursor: pointer;
+}
 .a_bg:hover{
     background: rgba(76, 175, 79, 1);
     color: rgba(245, 247, 250, 1);
@@ -253,6 +265,7 @@ span{
     color: rgba(76, 175, 79, 1);
     margin-left: 10px;
 }
+
 #demo{
     color: rgb(255, 255, 255);
 }
@@ -270,6 +283,4 @@ input{
         position: relative;
         right: 37px;
         font-size: 19px;
-        /* background: rgba(77, 77, 77, 1);
-        color: rgba(245, 247, 250, 1); */
 }
