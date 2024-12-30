@@ -45,6 +45,12 @@ p{
     text-align: center;
 }
 /* hero_area start here */
+.navbar{
+    --bs-navbar-toggler-border-color: none;
+    --bs-navbar-toggler-border-radius: none;
+    --bs-navbar-toggler-focus-width: 0;
+}
+
 nav{
     background: var(--primaryColor);
 }
@@ -112,6 +118,10 @@ span{
 .card1 {
 	box-shadow: 0px 3px 1px 1px #ABBED166;
 	border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+.card1:hover{
+	box-shadow: 0px 10px 7px 7px #ABBED166;
 }
 .body_1 h3{
     margin-left: 90px;
@@ -192,10 +202,10 @@ span{
 span{
     cursor: pointer;
 }
-.a_bg:hover{
+/* .a_bg:hover{
     background: rgba(76, 175, 79, 1);
     color: rgba(245, 247, 250, 1);
-}
+} */
 .client_img img{
     width: 40px;
     height: 40px;
@@ -213,11 +223,18 @@ span{
     margin-left: 25px;
     border-radius: 10px;
     width: 85%;
+    transform: translateY(30px);
     z-index: 2;
     position: relative;
-    padding: 10px 0
+    opacity: 0;
+    padding: 10px 0;
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out;
 }
-
+.body_1:hover .card_txt{
+    opacity: 1;
+    transform: translateY(0);
+    box-shadow:4px 10px 15px 3px #ABBED166;
+}
 /* footer_area start here  */
 .f_head{
     background: var(--primaryColor);
